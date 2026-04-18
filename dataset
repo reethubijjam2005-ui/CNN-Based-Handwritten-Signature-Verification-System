@@ -1,0 +1,3 @@
+import kagglehub
+path = kagglehub.dataset_download("ishanikathuria/handwritten-signature-datasets")
+print("Path to dataset files:", path)
